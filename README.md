@@ -16,8 +16,12 @@ To build the PDF file (don't bother trying this unless you really need
 it, since this list has probably bitrotted again and getting all this
 set up is a pain):
 
-    apt-get install texlive texlive-xetex fonts-inconsolata fonts-symbola texlive-lang-chinese inkscape
+    apt-get install texlive texlive-xetex fonts-inconsolata fonts-symbola texlive-lang-chinese inkscape texlive-lang-arabic fonts-cns11643-sung
     make book.pdf
+
+Aditional fonts are required:
+  - https://github.com/MihailJP/Inconsolata-LGC/releases/tag/LGC-1.5.1
+  - https://www.1001fonts.com/cinzel-font.html
 
 ## Translating
 
